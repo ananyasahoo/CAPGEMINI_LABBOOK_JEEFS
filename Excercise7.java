@@ -1,21 +1,38 @@
+/*
+*Ananya Priyadarshini
+* Date- 04/01/2021
+* To check a number is increasing or not
+*/
 
-public class checkIncreasenumber {
+
+public class IncreasingNum {
 
 	public static void main(String[] args) {
-		int input=28;
-		if(input <0)
-			input = -input;
-		int lastseen=10;
-		int current;
-		while(input>0) {
-			current= input % 10;
-			if(lastseen < current)
-				System.out.print(false);
-			lastseen = current;
-			input /=10;
-			
-		}
-     System.out.print(true);
-	}
+	
+		        
+		        
+		       int num=12345;
+		       boolean flag = false;
+		       int currentDigit = num % 10;
+		       num = num/10;
+		        
+		      
+		       while(num>0){
+		           
+		           if(currentDigit <= num % 10){
+		               flag = true;
+		               break;
+		           }
 
-}
+		           currentDigit = num % 10;
+		           num = num/10;
+		       }
+		        
+		     
+		       if(flag){
+		           System.out.println("Digits are not in increasing order.");
+		       }else{
+		           System.out.println("Digits are in increasing order.");
+		       }
+		    }
+		}

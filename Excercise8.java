@@ -1,19 +1,38 @@
+/*
+*Ananya Priyadarshini
+* Date- 04/01/2021
+* To check a number is power of two or not
+*/
+
+
 package checkNumber;
 
-public class checkNumber {
-	public static void main(String args[]) {
-		int n=8;
-		if(n ==0)
-			System.out.print(false); 
-		while(n !=1) {
-			if(n % 2 !=0)
-				System.out.print(false);
-			 n=n/2;
-			 
+public class power {
+
+	
+	
+		static boolean checkNumber (int n)
+		{
+			if(n==0)
+			return false;
+
+		return (int)(Math.ceil((Math.log(n) / Math.log(2)))) == 
+			(int)(Math.floor(((Math.log(n) / Math.log(2)))));
 		}
-		System.out.print(true);
+
+	
+		public static void main(String[] args)
+		{
+			if(checkNumber (8))
+			System.out.println("Yes");
+			else
+			System.out.println("No");
+			
+			
+		}
 		
-		
+
+
 	}
 
-}
+

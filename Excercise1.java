@@ -1,4 +1,8 @@
-
+/*
+*Ananya Priyadarshini
+* Date- 04/01/2021
+* To find the sum of the cubes of the digits of an n digit number
+*/
 public class Excercise1 {
 	public  static int CubeOfNumber(int n)  {
 		int sum=0;
