@@ -5,7 +5,7 @@
 */
 
 
-public class IncreasingNum {
+public class Excercise7 {
 
 	public static void main(String[] args) {
 	
