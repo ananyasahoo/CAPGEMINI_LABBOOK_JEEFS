@@ -4,7 +4,7 @@
 * calculate the sum of first n natural numbers which are divisible by 3 or 5.
 */
 
-package Project1;
+
 
 
 public class Excercise5 {
