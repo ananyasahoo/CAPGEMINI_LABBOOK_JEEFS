@@ -4,9 +4,9 @@
 * calculate the difference between the sum of the squares and the square of the sum of the first n natural numbers.
 */
 
-package calculateDiffreence;
+package lab1;
 
-     public class squareDifference {
+     public class Excercise6 {
 		
 
 		static int calculateDifference (int n){ 
