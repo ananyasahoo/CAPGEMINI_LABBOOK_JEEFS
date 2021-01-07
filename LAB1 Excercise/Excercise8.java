@@ -5,9 +5,8 @@
 */
 
 
-package checkNumber;
 
-public class power {
+public class Excercise8 {
 
 	
 	
