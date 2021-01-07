@@ -7,7 +7,7 @@
 package Project1;
 
 
-public class Sum {
+public class Excercise5 {
 	
 	static int calculateSum () 
 	{ 
